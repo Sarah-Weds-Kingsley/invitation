@@ -160,6 +160,16 @@ const guests = [
         plusOne: "No",
         searchTerms: ["chinedu", "okenu"]
     },
+        {
+        id: 17,
+        name: "Ifeanyi Nkem Frenzy",
+        photo: "images/frenzy.jpg",
+        table: 3,
+        seat: "C6",
+        category: "Friend of the Groom",
+        plusOne: "No",
+        searchTerms: ["ifeanyi", "frenzy"]
+    },
 ];
 
 // Add this code to your existing rsvp-script.js file, at the end of the DOMContentLoaded function
@@ -419,4 +429,5 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
         searchInput.focus();
     }, 500);
+
 });
