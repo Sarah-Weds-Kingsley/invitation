@@ -82,11 +82,11 @@ const guests = [
     },
     {
         id: 9,
-        name: "Stanley and Joy Akpan",
+        name: "Stanley Akpan",
         photo: "images/stanley.jpg",
-        table: 2,
-        seat: "B3",
-        category: "Childhood Friend",
+        table: 4,
+        seat: "D3",
+        category: "Grooms Man",
         plusOne: "Yes",
         searchTerms: ["stanley", "akpan", "joy"]
     },
@@ -135,7 +135,7 @@ const guests = [
         name: "Mr. & Mrs. Godwin Amaechi",
         photo: "images/mummy.jpg",
         table: 1,
-        seat: "F1",
+        seat: "A7 A8",
         category: "Parents of the Groom",
         plusOne: "No",
         searchTerms: ["lina", "angelina", "godwin", "amaechi"]
@@ -147,7 +147,7 @@ const guests = [
         table: 1,
         seat: "A6",
         category: "Friend of the Bride and Groom",
-        plusOne: "no",
+        plusOne: "No",
         searchTerms: ["nkem", "ebubealor"]
     },
     {
@@ -157,18 +157,48 @@ const guests = [
         table: 3,
         seat: "C5",
         category: "Friend of the Groom",
-        plusOne: "No",
+        plusOne: "Yes",
         searchTerms: ["chinedu", "okenu"]
     },
         {
         id: 17,
         name: "Ifeanyi Nkem Frenzy",
         photo: "images/frenzy.jpg",
-        table: 3,
-        seat: "C6",
-        category: "Friend of the Groom",
+        table: 4,
+        seat: "D2",
+        category: "Bestman",
         plusOne: "No",
         searchTerms: ["ifeanyi", "frenzy"]
+    },
+    {
+        id: 18,
+        name: "Mr and Mrs Victor Onwuka",
+        photo: "images/great.jpg",
+        table: "3",
+        seat: "C5",
+        category: "Friend of the Groom",
+        plusOne: "No",
+        searchTerms: ["victor", "onwuka"]
+    },
+    {
+        id: 19,
+        name: "Idris Spicey",
+        photo: "images/spicy.jpg",
+        table: "4",
+        seat: "D1",
+        category: "Grooms man",
+        plusOne: "No",
+        searchTerms: ["idris", "spicey"]
+    },
+    {
+        id: 20,
+        name: "Joy Akpan",
+        photo: "images/stanley.jpg",
+        table: 2,
+        seat: "B5",
+        category: "Friend of the Groom",
+        plusOne: "No",
+        searchTerms: ["Joy", "Akpan"]
     },
 ];
 
@@ -431,3 +461,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500);
 
 });
+
