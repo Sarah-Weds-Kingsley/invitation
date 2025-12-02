@@ -173,7 +173,7 @@ const guests = [
     {
         id: 18,
         name: "Mr and Mrs Victor Onwuka",
-        photo: "images/great.jpg",
+        photo: "images/victor.jpg",
         table: "3",
         seat: "C5",
         category: "Friend of the Groom",
@@ -461,5 +461,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500);
 
 });
+
 
 
