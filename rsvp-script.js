@@ -183,7 +183,7 @@ const guests = [
     {
         id: 19,
         name: "Idris Spicey",
-        photo: "images/spicy.jpg",
+        photo: "images/spicy.JPG",
         table: "4",
         seat: "D1",
         category: "Grooms man",
@@ -461,6 +461,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500);
 
 });
+
 
 
 
