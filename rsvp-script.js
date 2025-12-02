@@ -200,6 +200,16 @@ const guests = [
         plusOne: "No",
         searchTerms: ["Joy", "Akpan"]
     },
+    {
+        id: 20,
+        name: "Samuel Usikhifo",
+        photo: "images/sammy.jpg",
+        table: "4",
+        seat: "D4",
+        category: "Grooms man",
+        plusOne: "No",
+        searchTerms: ["Samuel", "Usikhifo"]
+    },
 ];
 
 // Add this code to your existing rsvp-script.js file, at the end of the DOMContentLoaded function
@@ -461,6 +471,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500);
 
 });
+
 
 
 
