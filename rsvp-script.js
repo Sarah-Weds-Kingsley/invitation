@@ -5,7 +5,7 @@ const guests = [
         name: "Cynthia and Igho Matthew",
         photo: "images/cy.jpg",
         table: 1,
-        seat: "A1",
+        seat: "A1 A2",
         category: "Family",
         plusOne: "Yes",
         searchTerms: ["cynthia", "igho", "matthew"]
@@ -15,7 +15,7 @@ const guests = [
         name: "Ifeoma Amaechi",
         photo: "images/ifymysister.jpg",
         table: 1,
-        seat: "A2",
+        seat: "A9",
         category: "Family",
         plusOne: "Yes",
         searchTerms: ["ifeoma", "amaechi"]
@@ -35,7 +35,7 @@ const guests = [
         name: "Kaycee and Betty Amaechi",
         photo: "images/kezman.jpg",
         table: 1,
-        seat: "A4",
+        seat: "A4 A10",
         category: "Family",
         plusOne: "Yes",
         searchTerms: ["kaycee", "amaechi", "betty"]
@@ -461,4 +461,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500);
 
 });
+
 
