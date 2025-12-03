@@ -210,6 +210,16 @@ const guests = [
         plusOne: "No",
         searchTerms: ["Samuel", "Usikhifo"]
     },
+    {
+        id: 21,
+        name: "Onars Genesis",
+        photo: "images/onars.jpg",
+        table: "4",
+        seat: "D5",
+        category: "Grooms man",
+        plusOne: "No",
+        searchTerms: ["onars", "genesis"]
+    },
 ];
 
 // Add this code to your existing rsvp-script.js file, at the end of the DOMContentLoaded function
@@ -471,6 +481,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 500);
 
 });
+
 
 
 
